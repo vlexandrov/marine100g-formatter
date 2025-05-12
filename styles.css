@@ -41,6 +41,13 @@ td {
 th {
   background: #f0f0f0;
 }
+
+.button-div {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 /* disable selection on the first column */
 /* tbody tr td:nth-child(1) {
     user-select: none;
