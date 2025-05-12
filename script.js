@@ -166,3 +166,10 @@ document.getElementById("copy-all").addEventListener("click", () => {
     .then(() => console.log("✅ All values copied"))
     .catch((err) => console.error("Copy failed", err));
 });
+
+document.getElementById("clear").addEventListener("click", () => {
+  const textBox = document.getElementById("input");
+  textBox.value = "";
+
+  document.getElementById("output").innerHTML = "";
+});
