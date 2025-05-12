@@ -16,12 +16,31 @@ button {
   cursor: pointer;
 }
 
-#process {
+#process,
+#clear {
   margin: 10px 0px 10px 0px;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
   width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+#clear {
+  background-color: #faa0a0;
+}
+
+#process {
+  background-color: #c1e1c1;
+}
+
+#process:hover {
+  background-color: #a9c5a9;
+}
+
+#clear:hover {
+  background-color: #db8c8c;
 }
 
 .table-container {
