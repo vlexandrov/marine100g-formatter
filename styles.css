@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 2rem auto;
+  line-height: 1.4;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  font-family: monospace;
+  margin-bottom: 1rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#process {
+  margin: 10px 0px 10px 0px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.table-container {
+  margin-top: 2rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+th {
+  background: #f0f0f0;
+}
+/* disable selection on the first column */
+/* tbody tr td:nth-child(1) {
+    user-select: none;
+  }
+
+  /* allow selection on the second column */
+/*tbody tr td:nth-child(2) {
+    user-select: text;
+  } */

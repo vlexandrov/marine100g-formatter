@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Data Formatter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Mean Metrics & Population Age Structure Formatter</h1>
+    <p>
+      Paste your data below and click <strong>Process</strong> to see it split
+      into two tables.
+    </p>
+    <textarea id="input" placeholder="Paste data here…"></textarea>
+    <button id="process">Process</button>
+    <button id="copy-all">Copy All Values</button>
+    <button id="copy-mean">Copy Mean Values</button>
+    <button id="copy-age">Copy Age Structure Values</button>
+    <button id="copy-mean-labels">Copy Mean labels</button>
+    <button id="copy-age-labels">Copy age struct labels</button>
+
+    <div id="output" class="table-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
